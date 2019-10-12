@@ -1,0 +1,263 @@
+  /* 小屏 */
+
+  /* menu */
+
+  #header .bg-nav {
+    background-color: #000;
+  }
+
+  #header .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  #header .menu-logo {
+    cursor: pointer;
+    margin: 0 20px;
+  }
+
+  /*
+  #header .menu .menu-btn-title{
+    color:#fff;
+    font-weight:400;
+    cursor: pointer;
+    font-size:16px;
+    line-height: 79px;
+    font-family: HYWenHei, CorporateS, Arial, Helvetica, 'SimSun', '宋体', 'STSong', '华文宋体', sans-serif
+  }
+  #header .menu .menu-btn{position: relative;cursor: pointer;}
+  #header .menu .menuicon{
+    position: absolute;
+    top:33px;left:60px;
+  }
+  #header .menu .menuicon::before,
+  #header .menu .menuicon::after,
+  #header ins{
+    content:"";
+    background: #fff;
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 20px;
+    top: 0px;
+    transition: all .3s cubic-bezier(.39,.575,.565,1);
+  }
+
+  #header ins{
+    width:16px;
+    top:6px;
+  }
+
+  #header .menu .menuicon::after{
+    top:12px;
+  }
+  #header .menu .search::before{
+    content: "\1f50d";
+    font-family: leica-icons!important;
+    font-style: normal;
+    font-weight: 400;
+    color:#7C7C7C;
+    font-size:20px;
+    font-weight:500;
+  }
+
+  #header .menu .search{
+    margin-left:auto;
+    margin-right:20px;
+    cursor: pointer;
+  }
+  
+  #header .menu .menu-tabs{
+    position: absolute;
+    left:-88px;
+    min-width:300px;
+    width:100vw;
+    max-width:1109px;
+    background-color: #181818;
+    color:#fff;
+    font-weight: 700; 
+    font-size:15px;
+  }
+
+*/
+
+  /* 添加hide类时隐藏 
+  #header .menu .menu-tabs.hide{
+    display: none;
+  }
+*/
+
+  /*
+#header .menu .menu-tabs li{
+    padding:20px;
+    border-bottom:1px solid #363636;
+    cursor: pointer;
+    position: relative;
+  }
+  #header .menu .menu-tabs li:hover{color:#7C7C7C;}
+*/
+
+  /*
+  #header .menu .menu-tabs li:after{
+    content: "4";
+    position: absolute;
+    right: 5%;
+    top: 22px;
+    font-family: icons;
+    display: block;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    color: #363636;
+  }
+*/
+
+  /* 轮播图部分 
+  #header .curousel img{
+    width:auto;
+    max-width: 100%;
+    max-height:100%;
+    transition:.5s all;
+  }
+*/
+
+  /* 大屏 */
+
+  #header ul {
+    display: flex;
+    color: #fff;
+    align-self: center;
+    margin-left: 1.25rem;
+  }
+
+  #header ul li {
+    height: 80px;
+    line-height: 80px;
+    font-size: 13px;
+    margin-right:20px;
+  }
+
+  /* main 部分 */
+  #main .nav-bar ul{
+    display: flex;
+    min-height: 82px;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-around;
+  }
+
+  #main .nav-bar ul li{
+    border-right:.5px solid #b6b6b6;
+    padding:29px 20px; 
+    color: #848484;
+  }
+  #main .nav-bar ul li:first-child{
+    border-left:.5px solid #b6b6b6;
+  }
+
+  #main .details{
+    padding-top:56px;
+    background-color:#f4f4f4;  
+  }
+
+  #main .details .container{
+    display: flex;
+  }
+  
+  #main .left{
+    position: relative;
+    /* padding-bottom:51px; */
+  }
+  #main .left p{
+    position: absolute;
+    bottom:-10px;
+    left:98px;
+    padding:28px 20px;
+    background-color: #fff;
+    width: calc(100% - 98px);
+    transition: all .5s;
+    clear: both;
+    border-top:1px solid transparent; 
+
+  }
+  #main small{
+    font-size:13px;
+    display: block;
+  }
+   #main b{
+    font-size:20px;
+  }
+  
+  /* #main p::after{
+    content: ">";
+    display: inline;
+    font-family: icons;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 0.4em;
+    text-decoration: none;
+    text-transform: none;
+    color: #c0484f;
+  } */
+
+  #main  b::after{
+    font-family: leica-icons!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\1f517";
+    position: relative;
+    top: 3px;
+    margin-left: 7px;
+    color: #e30610;
+    margin-right: 14px;
+    transition: all .5s;
+  }
+
+  #main .right{
+   margin-left:39px;
+   position: relative;
+  }
+
+  #main .details .right-top{
+    padding-bottom: 50.65%;
+    width: calc(100% - 98px);
+  }
+
+  #main .details .right-top img{
+    width:307px;
+    height:150px;
+  }
+
+  #main .right-top  p{
+    padding:15px 20px;
+    background-color: #fff;
+  }
+
+  /* 右边下面图片 */
+  #main .right-bottom{
+    margin-top:-195px;
+  }
+  #main .right-bottom p{
+    position: absolute;
+    background: #000;
+    bottom: 0;
+    left: 0px;
+    margin-bottom: 0px;
+    width: calc(100% - 98px);
+    padding: 15px 20px;
+    transition: all .5s;
+    clear: both;
+    color:#fff;
+  }
+
+  /* 照片小相机部分 */
+  .cam{
+    padding-top:110px;
+  }
+
+  .img-container{display: flex;}

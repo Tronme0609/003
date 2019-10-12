@@ -1,0 +1,16 @@
+@font-face{
+    font-family: leica-icons;
+    src: url(./fonts/leica-icons.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+}
+
+/* 新添了一个字体 */
+@font-face {
+    font-family: icons;
+    src: url(./fonts/leica-ui.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+}
